@@ -20,7 +20,7 @@ sudo apt-get update  <br />
 \# <br />
 sudo apt-get upgrade  <br />
 \# <br />
-\# What is interesting about this, was that it done before the OS reset, and it did do an update, 
+\# What is interesting about this, was that it done before the OS reset, and it did do an update, <br />
 \# but this time, nada. Did I miss something?<br />
 \# <br />
 sudo apt-get dist-upgrade <br />
