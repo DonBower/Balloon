@@ -16,9 +16,9 @@ First order of business, was to connect to my wifi, which had to be done via the
 Next we update/upgrage the OS to the latest version.  <br />
 sudo apt-get update  <br />
 sudo apt-get upgrade  <br />
-# <br />
-# What is interesting about this, was it done before the OS reset, and did do an update, but this time, nada. <br />
-# <br />
+\# <br />
+\# What is interesting about this, was it done before the OS reset, and did do an update, but this time, nada. <br />
+\# <br />
 sudo apt-get dist-upgrade <br />
 # <br />
 # This one I would have expected nada, but it appears it did a full firmware update! <br />
