@@ -15,9 +15,13 @@ Fortunatly, I have a full backup of what I did here on GitHub!
 First order of business, was to connect to my wifi, which had to be done via the KVM Interface. <br />
 Next we update/upgrage the OS to the latest version.  <br />
 sudo apt-get update  <br />
+\# <br />
+\# The upgrade takes a long time, like 10 minutes. <br />
+\# <br />
 sudo apt-get upgrade  <br />
 \# <br />
-\# What is interesting about this, was it done before the OS reset, and did do an update, but this time, nada. <br />
+\# What is interesting about this, was that it done before the OS reset, and it did do an update, 
+\# but this time, nada. Did I miss something?<br />
 \# <br />
 sudo apt-get dist-upgrade <br />
 \# <br />
