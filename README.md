@@ -12,9 +12,9 @@ the GPS Hat from Adafruit, which would include (https://www.adafruit.com/product
 So at this point the OS has been completly reset.
 Fortunatly, I have a full backup of what I did here on GitHub!
 
-First order of business, was to connect to my wifi, which had to be done via the KVM Interface. 
-Next we update/upgrage the OS to the latest version. 
-sudo apt-get update 
-sudo apt-get upgrade 
-sudo apt-get dist-upgrade 
-sudo rpi-update 
+First order of business, was to connect to my wifi, which had to be done via the KVM Interface. <br />
+Next we update/upgrage the OS to the latest version.  <br />
+sudo apt-get update  <br />
+sudo apt-get upgrade  <br />
+sudo apt-get dist-upgrade  <br />
+sudo rpi-update  <br />
