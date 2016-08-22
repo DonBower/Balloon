@@ -14,6 +14,9 @@ Fortunatly, I have a full backup of what I did here on GitHub!
 
 First order of business, was to connect to my wifi, which had to be done via the KVM Interface. <br />
 Next we update/upgrage the OS to the latest version.  <br />
+\# <br />
+\# This just updates the repo database, and runs in less than a minute. <br />
+\# <br />
 sudo apt-get update  <br />
 \# <br />
 \# The upgrade takes a long time, like 10 minutes. <br />
