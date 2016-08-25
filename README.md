@@ -45,16 +45,14 @@ ssh-keygen <br />
 \# Copy the public SSH key to GitHub per <br />
 \# https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/ <br />
 \# <br />
-\# <br />
 \# Now it's time to get git. <br />
-\# (Take all defaults) <br />
 \# <br />
 sudo apt-get install git <br />
 \# <br />
 \# Configure git Global Variables <br />
 \# <br />
-git config --global user.name "Don Bower"
-git config --global user.email "Don.Bower@outlook.com"
+git config --global user.name "Don Bower" <br />
+git config --global user.email "Don.Bower@outlook.com" <br />
 \# <br />
 \# Next clone this repository  <br />
 \# (Take all defaults) <br />
