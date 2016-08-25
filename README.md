@@ -47,8 +47,8 @@ ssh-keygen <br />
 \# <br />
 sudo apt-get install git <br />
 \# <br />
-\# Next clone this  <br />
+\# Next clone this repository  <br />
 \# (Take all defaults) <br />
 \# <br />
-sudo apt-get install git <br />
+git clone git@github.com:DonBower/balloon.git <br />
 
