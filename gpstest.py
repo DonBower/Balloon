@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import gps
 
 # Listen on port 2947 (gpsd) of localhost
