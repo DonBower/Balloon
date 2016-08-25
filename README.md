@@ -42,7 +42,8 @@ sudo shutdown -r now <br />
 \# <br />
 ssh-keygen <br />
 \# <br />
-\# Copy the public SSH key to GitHub per https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/ <br />
+\# Copy the public SSH key to GitHub per <br />
+\# https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/ <br />
 \# <br />
 \# <br />
 \# Now it's time to get git. <br />
