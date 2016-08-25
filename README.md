@@ -55,7 +55,9 @@ git config --global user.name "Don Bower" <br />
 git config --global user.email "Don.Bower@outlook.com" <br />
 \# <br />
 \# Next clone this repository  <br />
-\# (Take all defaults) <br />
 \# <br />
 git clone git@github.com:DonBower/balloon.git <br />
-
+\# <br />
+\# If you need updates from github, use git pull:  <br />
+\# <br />
+git pull origin master
