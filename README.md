@@ -32,3 +32,23 @@ sudo apt-get dist-upgrade <br />
 \# After a reboot, a subsequent execution produced a message the firmware was up to date.  Go Figure.<br />
 \# <br />
 sudo rpi-update <br />
+\# <br />
+\# A reboot is likly required, so... <br />
+\# <br />
+sudo shutdown -r now <br />
+\# <br />
+\# Next order of business is get a ssh key. <br />
+\# (Take all defaults) <br />
+\# <br />
+ssh-keygen <br />
+\# <br />
+\# Now it's time to get git. <br />
+\# (Take all defaults) <br />
+\# <br />
+sudo apt-get install git <br />
+\# <br />
+\# Next clone this  <br />
+\# (Take all defaults) <br />
+\# <br />
+sudo apt-get install git <br />
+
