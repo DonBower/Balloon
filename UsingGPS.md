@@ -15,5 +15,13 @@ Disable the gpsd service installed by apt-get<br>
 manualy start gpsd<br>
 <b>sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock</b><br>
 <br>
+To reset the gpsd daemon, use this sequence:<br>
+<b>sudo killall gpsd</b><br>
+<b>sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock</b><br>
+<br>
+Although we will be copying the raw data to the usbstick (via <b>cat /dev/serial0 > /mnt/usbstick/gpslog.txt<b>), here are two monitors<br>
+<b>gpsmon</b><br>
+<b>cgps -s</b><br>
+<br>
 <br>
 <br>
