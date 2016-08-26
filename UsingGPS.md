@@ -30,7 +30,7 @@ Now it's time to stop the console service, which is unneccessary for the balloon
 <b>sudo systemctl disable serial-getty@ttyS0.service</b><br />
 <br />
 Now, let's not reference the the service in future boots.<br />
-Remove the entry: <b>console=serial0,115200 </b> from the <b>/boot/cmdline.txt</b> file, and reboot.<br />
+Remove the <b>console=serial0,115200 </b> entry from the <b>/boot/cmdline.txt</b> file, and reboot.<br />
 <br />
 <br />
 <br />
