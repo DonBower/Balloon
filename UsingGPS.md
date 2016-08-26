@@ -33,7 +33,7 @@ Now, let's not reference the the service in future boots.<br />
 Remove the <b>console=serial0,115200 </b> entry from the <b>/boot/cmdline.txt</b> file, and reboot.<br />
 <br />
 Now we can disable that pesky bluetooth service. <br />
-Add the line <b>pi3-disable-bt</b> to the bottom of <b>/boot/config.txt</b> and reboot. <br />
+Add the line <b>dtoverlay=pi3-disable-bt</b> to the bottom of <b>/boot/config.txt</b> and reboot. <br />
 <br />
 <br />
 <br />
