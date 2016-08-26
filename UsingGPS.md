@@ -35,6 +35,19 @@ Remove the <b>console=serial0,115200 </b> entry from the <b>/boot/cmdline.txt</b
 Now we can disable that pesky bluetooth service. <br />
 Add the line <b>dtoverlay=pi3-disable-bt</b> to the bottom of <b>/boot/config.txt</b> and reboot. <br />
 <br />
+Viola!<br />
+pi@raspberrypi:~ $ <b>ls -l /dev/ser* </b><br />
+lrwxrwxrwx 1 root root 7 Aug 26 03:24 /dev/serial0 -> ttyAMA0 <br />
+lrwxrwxrwx 1 root root 5 Aug 26 03:24 /dev/serial1 -> ttyS0 <br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 <br />
 <br />
 <br />
