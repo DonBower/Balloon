@@ -5,8 +5,8 @@ First, Do the normal updates:<br />
 <b>sudo apt-get dist-upgrade  </b> <br />
 <b>sudo rpi-update </b> <br />
 <br />
-<br />
-<br />
+Grab the gps utilities:<br />
+<b>sudo apt-get install gpsd gpsd-clients python-gps</b><br />
 <br />
 <br />
 <br />
