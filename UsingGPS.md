@@ -19,7 +19,7 @@ To reset the gpsd daemon, use this sequence:<br>
 <b>sudo killall gpsd</b><br>
 <b>sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock</b><br>
 <br>
-Although we will be copying the raw data to the usbstick (via <b>cat /dev/serial0 > /mnt/usbstick/gpslog.txt<b>), here are two monitors<br>
+Although we will be copying the raw data to the usbstick (via <b>cat /dev/serial0 > /mnt/usbstick/gpslog.txt</b>), here are two monitors<br>
 <b>gpsmon</b><br>
 <b>cgps -s</b><br>
 <br>
