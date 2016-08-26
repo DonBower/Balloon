@@ -23,5 +23,5 @@ Although we will be copying the raw data to the usbstick (via <b>cat /dev/serial
 <b>gpsmon</b><br>
 <b>cgps -s</b><br>
 <br>
-<br>
+Now that the Ultimate GPS Breakout is working perfectly with the on-board UART the next step is to dismantle the Pi and it's other sensors, and connect the GPS Hat. Another night though...<br>
 <br>
