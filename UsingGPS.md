@@ -18,7 +18,7 @@ Here is the current status of the serial ports: <br />
 pi@raspberrypi:~/balloon $ <b>ls -l /dev/ser* </b><br />
 lrwxrwxrwx 1 root root 7 Aug 25 03:46 /dev/serial1 -> ttyAMA0 <br />
 <br />
-so to enable the mini-uart, by adding the line <b> enable_uart=1</b> to the bottom of <b>/boot/config.txt</b> <br />
+We enable the mini-uart, by adding the line <b> enable_uart=1</b> to the bottom of <b>/boot/config.txt</b> and reboot.<br />
 <br />
 <br />
 <br />
