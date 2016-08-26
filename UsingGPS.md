@@ -20,6 +20,18 @@ lrwxrwxrwx 1 root root 7 Aug 25 03:46 /dev/serial1 -> ttyAMA0 <br />
 <br />
 We enable the mini-uart, by adding the line <b> enable_uart=1</b> to the bottom of <b>/boot/config.txt</b> and reboot.<br />
 <br />
+Now we can see both UARTs enabled, but backwards for our purposes:<br />
+pi@raspberrypi:~/balloon $ <b>ls -l /dev/ser* </b><br />
+lrwxrwxrwx 1 root root 5 Aug 26 02:48 /dev/serial0 -> ttyS0<br />
+lrwxrwxrwx 1 root root 7 Aug 26 02:48 /dev/serial1 -> ttyAMA0<br />
+<br />
+Now it's time to stop the console service, which is unneccessary for the balloon project:<br />
+<b>sudo systemctl stop serial-getty@ttyS0.service</b><br />
+<b>sudo systemctl disable serial-getty@ttyS0.service</b><br />
+<br />
+<br />
+<br />
+<br />
 <br />
 <br />
 <br />
