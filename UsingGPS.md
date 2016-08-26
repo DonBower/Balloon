@@ -8,8 +8,9 @@ First, Do the normal updates:<br />
 Grab the gps utilities:<br />
 <b>sudo apt-get install gpsd gpsd-clients python-gps</b><br />
 <br />
-<br />
-<br />
+Disable the gpsd service installed by apt-get<br />
+<b>sudo systemctl stop gpsd.socket</b><br>
+<b>sudo systemctl disable gpsd.socket</b><br />
 <br />
 <br />
 <br />
