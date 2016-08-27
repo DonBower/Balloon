@@ -10,7 +10,7 @@ Select the following sequence:<br>
 <b>Advanced Options</b> => <b>I2C</b> => <b>\<Yes></b> => <b>\<Ok></b> => <b>\<Finish></b><br>
 Or you can add the <b>dtparam=i2c1=on</b> line, and un-comment the line <b>#dtparam=i2c_arm=on</b> in the <b>/boot/config.txt</b> file.<br>
 <br>
-The interface can be checked with the command <b>sudo i2cdetect -y 1</b><br>
+The interface can be checked with the command <b>``sudo i2cdetect -y 1``</b><br>
 You sould see an table displayed with an address at each grid vector.<br>
 Here is mine: <br>
 ``     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f ``<br>
