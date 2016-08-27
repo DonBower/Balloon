@@ -7,6 +7,6 @@ First, let's install some tools:<br>
 You could enable the i2c interface via the GUI, but where's the fun in that.  Let's use raspi-config instead.<br>
 <b>sudo raspi-config</b><br>
 Select the following sequence:<br>
-Advanced Options > I2C > \<Yes> > \<Ok> > \<Finish><br>
+<b>Advanced Options</b> => <b>I2C</b> => <b>\<Yes></b> => <b>\<Ok></b> => <b>\<Finish></b><br>
 
 
