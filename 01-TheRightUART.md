@@ -35,14 +35,14 @@ lrwxrwxrwx 1 root root 7 Aug 26 02:48 /dev/serial1 -> ttyAMA0
 Now it's time to stop the console service, which is unneccessary for the balloon project:<br />
 ```
 sudo systemctl stop serial-getty@ttyS0.service
-<b>sudo systemctl disable serial-getty@ttyS0.service
+sudo systemctl disable serial-getty@ttyS0.service
 ```
 <br />
 Now, let's not reference the console service in future boots.<br />
 Remove the <b>console=serial0,115200 </b> entry from the <b>/boot/cmdline.txt</b> file, and reboot.<br />
 <br />
 Finally we can disable that pesky bluetooth service. <br />
-Add the line <b>dtoverlay=pi3-disable-bt</b> to the bottom of <b>/boot/config.txt</b> and reboot. <br />
+Add the line `dtoverlay=pi3-disable-bt` to the bottom of <b>/boot/config.txt</b> and reboot. <br />
 <br />
 Viola!<br />
 ```
