@@ -2,7 +2,9 @@
 So Here is my quest to use the Adafruit Ultimate GPS which comes in 2 flavors,   <br />
 one is a breakout, https://www.adafruit.com/products/746),  <br />
 and the other is a hat (https://www.adafruit.com/products/2324) <br />
-The issue with it working straight up is a: the UART connected to the GPIO is disabled, and b: the default GPIO UART is a mini-UART (i.e. software assisted)  <br />
+The issue with it working straight up are <br>
+1. The UART connected to the GPIO is disabled 
+2. The default GPIO UART is a mini-UART (i.e. software assisted)  <br />
 There is a fantastic write-up on how to get things back on track, which I am ultimatly going to follow:  <br />
 http://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3  <br />
 <br />
