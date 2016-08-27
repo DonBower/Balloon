@@ -13,7 +13,8 @@ Or you can add the <b>dtparam=i2c1=on</b> line, and un-comment the line <b>#dtpa
 The interface can be checked with the command <b>``sudo i2cdetect -y 1``</b><br>
 You sould see an table displayed with an address at each grid vector.<br>
 Here is mine: <br>
-```     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+```
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
 00:          -- -- -- -- -- -- -- -- -- -- -- -- --
 10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
@@ -21,7 +22,8 @@ Here is mine: <br>
 40: -- -- -- -- -- -- -- -- 48 -- -- -- -- -- -- -- 
 50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-70: -- -- -- -- -- -- -- 77                         ```
+70: -- -- -- -- -- -- -- 77                         
+```
 <br>
 <br>
 <br>
