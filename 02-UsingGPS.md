@@ -1,3 +1,4 @@
+# Using the Ultimate GPS Module
 To use the GPS from Adafruit, we need to make a few mods.<br>
 First, Do the normal updates:<br>
 <b>sudo apt-get update  </b> <br>
