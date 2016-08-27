@@ -8,5 +8,6 @@ You could enable the i2c interface via the GUI, but where's the fun in that.  Le
 <b>sudo raspi-config</b><br>
 Select the following sequence:<br>
 <b>Advanced Options</b> => <b>I2C</b> => <b>\<Yes></b> => <b>\<Ok></b> => <b>\<Finish></b><br>
+Or you can uncomment out the line <b>#dtparam=i2c_arm=on</b> in the <b>/boot/config.txt</b> file.<br>
 
 
