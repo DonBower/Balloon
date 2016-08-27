@@ -19,20 +19,24 @@ With the Jessie Version of Raspian on my Pi3, the default serial port configurat
 Here is the current status of the serial ports: <br />
 <br />
 ```
-pi@raspberrypi:~/balloon $ <b>ls -l /dev/ser* </b>
+pi@raspberrypi:~/balloon $ ls -l /dev/ser*
 lrwxrwxrwx 1 root root 7 Aug 25 03:46 /dev/serial1 -> ttyAMA0
 ```
 <br />
 We enable the mini-uart, by adding the line <b> enable_uart=1</b> to the bottom of <b>/boot/config.txt</b> and reboot.<br />
 <br />
 Now we can see both UARTs enabled, but backwards for our purposes:<br />
-pi@raspberrypi:~/balloon $ <b>ls -l /dev/ser* </b><br />
-lrwxrwxrwx 1 root root 5 Aug 26 02:48 /dev/serial0 -> ttyS0<br />
-lrwxrwxrwx 1 root root 7 Aug 26 02:48 /dev/serial1 -> ttyAMA0<br />
+```
+pi@raspberrypi:~/balloon $ ls -l /dev/ser* <br />
+lrwxrwxrwx 1 root root 5 Aug 26 02:48 /dev/serial0 -> ttyS0
+lrwxrwxrwx 1 root root 7 Aug 26 02:48 /dev/serial1 -> ttyAMA0
+```
 <br />
 Now it's time to stop the console service, which is unneccessary for the balloon project:<br />
-<b>sudo systemctl stop serial-getty@ttyS0.service</b><br />
-<b>sudo systemctl disable serial-getty@ttyS0.service</b><br />
+```
+sudo systemctl stop serial-getty@ttyS0.service
+<b>sudo systemctl disable serial-getty@ttyS0.service
+```
 <br />
 Now, let's not reference the console service in future boots.<br />
 Remove the <b>console=serial0,115200 </b> entry from the <b>/boot/cmdline.txt</b> file, and reboot.<br />
@@ -41,9 +45,11 @@ Finally we can disable that pesky bluetooth service. <br />
 Add the line <b>dtoverlay=pi3-disable-bt</b> to the bottom of <b>/boot/config.txt</b> and reboot. <br />
 <br />
 Viola!<br />
-pi@raspberrypi:~ $ <b>ls -l /dev/ser* </b><br />
-lrwxrwxrwx 1 root root 7 Aug 26 03:24 /dev/serial0 -> ttyAMA0 <br />
-lrwxrwxrwx 1 root root 5 Aug 26 03:24 /dev/serial1 -> ttyS0 <br />
+```
+pi@raspberrypi:~ $ ls -l /dev/ser* 
+lrwxrwxrwx 1 root root 7 Aug 26 03:24 /dev/serial0 -> ttyAMA0 
+lrwxrwxrwx 1 root root 5 Aug 26 03:24 /dev/serial1 -> ttyS0 
+```
 <br />
 <br />
 <br />
