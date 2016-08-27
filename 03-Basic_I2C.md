@@ -4,4 +4,5 @@ The I²C interface is an opensource, single-bit serial bus that allows multiple 
 A couple of the sensors use the I²C interface which needs to be enabled.  These are the steps to get I²C enabled.<br>
 First, let's install some tools:<br>
 <b>sudo apt-get install python-smbus i2-tools</b><br>
-<b>sudo apt-get install i2c-tools</b><br>
+You could enable the i2c interface via the GUI, but where's the fun in that.  Let's use raspi-config instead.
+<b>sudo raspi-config</b><br>
