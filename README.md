@@ -25,8 +25,8 @@ Next order of business is get a ssh key. (Take all defaults)
 ```
 ssh-keygen
 ```
-Copy the public SSH key to GitHub per the instructions documented in https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
-Now it's time to get git, and configure the git Global Variables <br />
+Copy the public SSH key to GitHub per the instructions documented in https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/<br>
+Then it's time to get git, and configure the git Global Variables <br />
 ```
 sudo apt-get install git
 git config --global user.name "Don Bower"
