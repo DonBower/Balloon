@@ -14,8 +14,8 @@ First, I am using a Raspberry Pi 3+, Which I bought from Amazon, but you can get
 https://www.adafruit.com/products/3055 <br>
 <br>
 With the Jessie Version of Raspian on my Pi3, the default serial port configuration is:<br>
-/dev/serial0 -> ttyS0 (a.k.a. mini-UART) and is configured for GPIO, and is disabled and uses the service getty to provide console access<br>
-/dev/serial1 -> ttyAMA0 and is configured for bluetooth, and is enabled<br>
+-/dev/serial0 -> ttyS0 (a.k.a. mini-UART) and is configured for GPIO, and is disabled and uses the service getty to provide console access<br>
+-/dev/serial1 -> ttyAMA0 and is configured for bluetooth, and is enabled<br>
 <br>
 Here is the current status of the serial ports: <br>
 <br>
@@ -40,8 +40,12 @@ sudo systemctl disable serial-getty@ttyS0.service
 ```
 <br>
 Now, let's not reference the console service in future boots.<br>
-Remove the <b>console=serial0,115200 </b> entry from the <b>/boot/cmdline.txt</b> file, and reboot.<br>
+Remove the `console=serial0,115200` entry from the <b>/boot/cmdline.txt</b> file, and reboot.<br>
 <br>
+Here is my new <b>/boot/cmdline.txt</b> file:<br>
+```
+dwc_otg.lpm_enable=0 console=tty1 root=/dev/mmcblk0p7 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+```
 Finally we can disable that pesky bluetooth service. <br>
 Add the line `dtoverlay=pi3-disable-bt` to the bottom of <b>/boot/config.txt</b> and reboot. <br>
 <br>
@@ -64,4 +68,3 @@ lrwxrwxrwx 1 root root 5 Aug 26 03:24 /dev/serial1 -> ttyS0
 <br>
 <br>
 <br>
-
