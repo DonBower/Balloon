@@ -14,21 +14,25 @@ First, I am using a Raspberry Pi 3+, Which I bought from Amazon, but you can get
 https://www.adafruit.com/products/3055 <br>
 <br>
 With the Jessie Version of Raspian on my Pi3, the default serial port configuration is:<br>
--/dev/serial0 -> ttyS0 (a.k.a. mini-UART) and is configured for GPIO, and is disabled and uses the service getty to provide console access<br>
--/dev/serial1 -> ttyAMA0 and is configured for bluetooth, and is enabled<br>
-<br>
-Here is the current status of the serial ports: <br>
-<br>
+- `/dev/serial0 -> ttyS0`
+  - a.k.a. mini-UART 
+  - Is configured for GPIO
+  - Is disabled
+  - uses the service getty to provide console access
+- `/dev/serial1 -> ttyAMA0`
+  - Is configured for bluetooth
+  - Is enabled<br>
+
+These points are demonstrated by displaying the current status of the serial ports:
 ```
 pi@raspberrypi:~/balloon $ ls -l /dev/ser*
 lrwxrwxrwx 1 root root 7 Aug 25 03:46 /dev/serial1 -> ttyAMA0
 ```
+We enable the GPIO UART by adding the line `enable_uart=1` to the bottom of <b>/boot/config.txt</b> file and reboot.<br>
 <br>
-We enable the GPIO UART by adding the line `enable_uart=1` to the bottom of <b>/boot/config.txt</b> and reboot.<br>
-<br>
-Now we can see both UARTs enabled, but backwards for our purposes:<br>
+Now we can see both UARTs enabled, but backwards for our purposes:
 ```
-pi@raspberrypi:~/balloon $ ls -l /dev/ser* <br>
+pi@raspberrypi:~/balloon $ ls -l /dev/ser*
 lrwxrwxrwx 1 root root 5 Aug 26 02:48 /dev/serial0 -> ttyS0
 lrwxrwxrwx 1 root root 7 Aug 26 02:48 /dev/serial1 -> ttyAMA0
 ```
@@ -42,12 +46,12 @@ sudo systemctl disable serial-getty@ttyS0.service
 Now, let's not reference the console service in future boots.<br>
 Remove the `console=serial0,115200` entry from the <b>/boot/cmdline.txt</b> file, and reboot.<br>
 <br>
-Here is my new <b>/boot/cmdline.txt</b> file:<br>
+Here is my new <b>/boot/cmdline.txt</b> file:
 ```
 dwc_otg.lpm_enable=0 console=tty1 root=/dev/mmcblk0p7 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
 ```
-Finally we can disable that pesky bluetooth service. <br>
-Add the line `dtoverlay=pi3-disable-bt` to the bottom of <b>/boot/config.txt</b> and reboot. <br>
+<br>
+Finally we can disable that pesky bluetooth service by adding the line `dtoverlay=pi3-disable-bt` to the bottom of <b>/boot/config.txt</b> and reboot. <br>
 <br>
 Viola!<br>
 ```
