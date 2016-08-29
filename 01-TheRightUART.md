@@ -53,22 +53,11 @@ dwc_otg.lpm_enable=0 console=tty1 root=/dev/mmcblk0p7 rootfstype=ext4 elevator=d
 <br>
 Finally we can disable that pesky bluetooth service by adding the line `dtoverlay=pi3-disable-bt` to the bottom of <b>/boot/config.txt</b> and reboot. <br>
 <br>
-Viola!<br>
+Viola!
 ```
 pi@raspberrypi:~ $ ls -l /dev/ser* 
 lrwxrwxrwx 1 root root 7 Aug 26 03:24 /dev/serial0 -> ttyAMA0 
 lrwxrwxrwx 1 root root 5 Aug 26 03:24 /dev/serial1 -> ttyS0 
 ```
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <br>
 <br>
