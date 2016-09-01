@@ -7,7 +7,7 @@ The issue with it working straight out of the box are <br>
 2. The default UART for the GPIO is a mini-UART (i.e. software assisted)<br>
 3. The Hardware UART is enabled and configured to use bluetooth.<br>
 
-There is a fantastic write-up on how to get things back on track, which I am ultimatly going to follow:  <br>
+There is a fantastic write-up on how to get things back on track, which I am ultimately going to follow:  <br>
 http://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3  <br>
 <br>
 First, I am using a Raspberry Pi 3+, Which I bought from Amazon, but you can get it here: <br>
