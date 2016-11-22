@@ -12,8 +12,8 @@ import time
 
 DHTSensor = 22
 DHTGPIOPin = 21
-TimeStampStr = time.strftime("%Y-%m-%d_%H:%M:%S")
-logfile='/mnt/usbstick/balloonlog_{:s}.txt'.format(TimeStampStr)
+TimeStampStr = time.strftime("%Y-%m-%d_%H-%M-%S")
+logfile='/mnt/usbstick/wxdata_{:s}.txt'.format(TimeStampStr)
 
 F1 = open(logfile, "w", 1) # Open File, write to disk every line.
 F1.write("test\n")

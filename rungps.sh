@@ -1,3 +1,10 @@
+#!/bin/bash
+BASEDIR="/mnt/usbstick"
+DATE=$(date +"%Y-%m-%d_%H-%M-%S")
+LOGFILE=$BASEDIR/gpslog.txt
+DATAFILE=$BASEDIR/gpsdata-$DATE.txt
+ts=$(date +"%Y/%m/%d %H:%M:%S.%N")
+echo $ts "Start GPS Process" >> $LOGFILE
 while [ 1 ]
 do
     read this_line
@@ -12,7 +19,7 @@ do
     #
     ts=$(date +"%Y/%m/%d %H:%M:%S.%N")
 
-    echo $ts $this_line >> full-log.txt
+    echo $ts $this_line >> $DATAFILE
 
     # let us filter the current position
     #
@@ -27,29 +34,8 @@ do
 		gps_sats=$(echo $this_line | cut -d, -f 8)
 		gps_hdop=$(echo $this_line | cut -d, -f 9)
 		gps_elev=$(echo $this_line | cut -d, -f 10)
-		echo $this_line
+		echo $this_line >> $DATAFILE
 	fi
 
 
-
-    if [[ "$this_line" =~ "GPRMC" ]]
-    then
-        # ok, it looks like a GPS reading (may be void)
-        # if field 3 is V, the reading is void (or maybe
-        # only untrusted?), if it is A, then the position
-        # is Active (and therefore given with confidence?)
-        #
-        if [[ $(echo $this_line | cut -d, -f 4-6) != ",,," ]]
-        then
-            # get latitude and longitude
-            gps_pos=($(echo $this_line | \
-                cut -d, -f 3-7 | \
-                tr , ' ' | \
-                sed 's/\(^0*\)\|\(\b0*\)//g'))
-            # show
-            echo $ts ${gps_pos[@]}
-#	    sleep 2s
-        fi
-    fi
-		
 done < /dev/ttyAMA0
