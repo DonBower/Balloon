@@ -2,6 +2,7 @@
 BASEDIR="/mnt/usbstick"
 DATE=$(date +"%Y-%m-%d_%H-%M-%S")
 LOGFILE=$BASEDIR/gpslog.txt
+RAWFILE=$BASEDIR/gpsdata/gpsraw-$DATE.txt
 DATAFILE=$BASEDIR/gpsdata-$DATE.txt
 ts=$(date +"%Y/%m/%d %H:%M:%S.%N")
 echo $ts "Start GPS Process" >> $LOGFILE
@@ -19,7 +20,7 @@ do
     #
     ts=$(date +"%Y/%m/%d %H:%M:%S.%N")
 
-    echo $ts $this_line >> $DATAFILE
+    echo $ts $this_line >> $RAWFILE
 
     # let us filter the current position
     #
@@ -37,5 +38,24 @@ do
 		echo $this_line >> $DATAFILE
 	fi
 
+	if [[ "$this_line" =~ "GPRMC" ]]
+	then
+        # ok, it looks like a GPS reading (may be void)
+        # if field 3 is V, the reading is void (or maybe
+        # only untrusted?), if it is A, then the position
+        # is Active (and therefore given with confidence?)
+        #
+		if [[ $(echo $this_line | cut -d, -f 4-6) != ",,," ]]
+		then
+		# get latitude and longitude
+			gps_fix=$(echo $this_line | cut -d, -f 3)
+			gps_pos=($(echo $this_line | cut -d, -f 3-7 | tr , ' ' | sed 's/\(^0*\)\|\(\b0*\)//g'))
+            # show
+			if [[ "$gps_fix" != "V" ]]
+			then
+				echo $ts ${gps_pos[@]} >> $DATAFILE
+			fi
+		fi
+	fi
 
 done < /dev/ttyAMA0
