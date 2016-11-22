@@ -24,7 +24,7 @@ do
 
     # let us filter the current position
     #
-	if [[ "$this_line" =~ "GPGGA" ]]
+	if [[ $this_line == \$GPGGA* ]]
 	then
 		gps_time=$(echo $this_line | cut -d, -f 2)
 		gps_latdeg=$(echo $this_line | cut -d, -f 3)
@@ -38,7 +38,7 @@ do
 		echo $this_line >> $DATAFILE
 	fi
 
-	if [[ "$this_line" =~ "GPRMC" ]]
+	if [[ $this_line == \$GPRMC* ]]
 	then
         # ok, it looks like a GPS reading (may be void)
         # if field 3 is V, the reading is void (or maybe
