@@ -1,0 +1,78 @@
+<HTML>
+<HEAD>
+<TITLE>0 hour balloon trajectory forecast valid 06Z 28 November 2016</TITLE>
+</HEAD>
+<BODY>
+<H1>0 hour balloon trajectory forecast valid 06Z 28 November 2016</H1>
+<HR><h3>Initial Position</h3>
+34.65 degrees north, 117.60 degrees west, 924 meters.
+<p>
+<h3>60,000 feet - Ascent</h3>
+34.65 degrees north, 117.60 degrees west, 924 meters.
+<BR>0.0 nautical miles, 0 degrees magnetic from the initial position.
+<BR>The magnetic declination is 13 degrees.
+<p>
+<h3>Burst Point</h3>
+34.32 degrees north, 117.30 degrees west, 10000 meters.
+<BR>24.8 nautical miles, 128 degrees magnetic from the initial position.
+<BR>The magnetic declination is 13 degrees.
+<p>
+<h3>Impact</h3>
+33.91 degrees north, 116.91 degrees west, 924 meters.
+<BR>55.9 nautical miles, 128 degrees magnetic from the initial position.
+<BR>The magnetic declination is 13 degrees.
+<p>
+<hr><B><pre>
+    Time     Lat      Lon Height   DME VOR     U     V     W    P   T  RH
+                               m    NM mag   m/s   m/s   m/s  hPa   C   %</pre></b><pre>
+00:00:00  34.650 -117.600    925   0.0   0   3.6   1.2   5.0  896   3  18
+00:01:49  34.651 -117.596   1476   0.2  59   2.9   0.8   5.0  850   4  39
+00:03:26  34.650 -117.593   1965   0.3  72   3.2  -2.1   5.0  800   1  41
+00:05:10  34.644 -117.588   2484   0.7 108   6.4 -12.7   5.0  750   3  21
+00:07:01  34.626 -117.577   3045   1.8 127  10.8 -21.6   5.0  700   5  19
+00:09:00  34.603 -117.561   3646   3.4 132  14.2 -22.5   5.1  650   2  21
+00:11:05  34.578 -117.539   4284   5.2 131  17.4 -20.7   5.1  600  -4  26
+00:13:18  34.554 -117.511   4963   7.2 129  20.8 -20.4   5.1  550  -9  37
+00:15:39  34.528 -117.477   5691   9.5 126  23.6 -20.8   5.2  500 -15  54
+00:18:10  34.500 -117.436   6477  12.1 124  26.3 -19.9   5.2  450 -21  72
+00:20:53  34.470 -117.391   7334  15.0 122  24.7 -21.7   5.3  400 -28  74
+00:23:49  34.428 -117.352   8279  18.1 123  16.0 -31.6   5.4  350 -35  69
+00:27:02  34.366 -117.319   9334  22.0 127  14.8 -39.9   5.5  300 -44  75
+00:29:01  34.322 -117.296  10000  24.8 129  21.5 -41.7   5.6  250 -54  85
+00:30:58  34.279 -117.273   9334  27.5 130  14.8 -39.9  -4.9  300 -44  75
+00:34:42  34.207 -117.235   8279  32.1 132  16.0 -31.6  -4.6  350 -35  69
+00:38:14  34.156 -117.188   7334  36.0 132  24.7 -21.7  -4.3  400 -28  74
+00:41:36  34.119 -117.132   6477  39.4 130  26.3 -19.9  -4.1  450 -21  72
+00:44:49  34.083 -117.080   5691  42.7 129  23.6 -20.8  -4.0  500 -15  54
+00:47:56  34.049 -117.035   4963  45.7 128  20.8 -20.4  -3.8  550  -9  37
+00:50:55  34.016 -116.998   4284  48.4 128  17.4 -20.7  -3.7  600  -4  26
+00:53:50  33.982 -116.968   3646  50.9 128  14.2 -22.5  -3.6  650   2  21
+00:56:39  33.948 -116.945   3045  53.2 128  10.8 -21.6  -3.5  700   5  19
+00:59:23  33.923 -116.930   2484  54.9 129   6.4 -12.7  -3.4  750   3  21
+01:02:00  33.912 -116.921   1965  55.6 129   3.2  -2.1  -3.2  800   1  41
+01:04:32  33.912 -116.916   1476  55.8 129   2.9   0.8  -3.2  850   4  39
+01:07:29  33.913 -116.910    925  55.9 128   3.6   1.2  -3.1  896   3  18
+
+</PRE>
+
+    <HR size=5>
+    <h3 align=left>
+    <a href="http://www.uwyo.edu/atsc/" target="_top">
+    <img src="http:/icons/atsc.gif" width="32" height="25" border="0">
+    <font size="3"> <i>Department of Atmospheric Science</i></font></a>
+    <font size="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>
+
+    <a href="http://wwweng.uwyo.edu/index.html" target="_top">
+    <img src="http:/icons/EngButton.jpeg" width="32" height="25" border="0">
+    <font size="3"> <i>College of Engineering</i></font></a>
+    <font size="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>
+
+    <a href="http://www.uwyo.edu/" target="_top">
+    <img src="http:/icons/uwlogo.gif" width="27" height="27" border="0">
+    <font size="3"> <i>University of Wyoming </i></font></a>
+    </h3>
+
+    <P>Questions about the weather data provided by this site can be addressed to
+    <A HREF="mailto:ldoolman@uwyo.edu"> Larry Oolman (ldoolman@uwyo.edu)</A>
+    <HR size=5>
+  </BODY></HTML>
