@@ -1,7 +1,9 @@
 #!/bin/bash
 #####################################################################################################
 # rtvprediction.sh - This script will retreive the predictided landing zone for a balloon           #
-# based on 8 burst elevations, ranging from 5000 meters to 15000 meters in 500 meter increments.    #
+# based on 21 burst elevations, ranging from 5000 meters to 15000 meters in 500 meter increments.   #
+# 2016/11/28 -  Initial Release                                                                     #
+#               Don Bower                                                                           #
 #####################################################################################################
 
 LAUNCHYear=2016
@@ -15,7 +17,7 @@ BURST=5000
 
 rm predict.txt
 
-for BURST in 5000 5500 6000 6500 7000 7500 8000 8500 9000 9500 10000
+for BURST in 5000 5500 6000 6500 7000 7500 8000 8500 9000 9500 10000 10500 11000 11500 12000 12500 13000 13500 14000 14500 15000
 do
     curl -G -v "http://weather.uwyo.edu/cgi-bin/balloon_traj" \
     --data "TIME=$LAUNCHTIME" \
