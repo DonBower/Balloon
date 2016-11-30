@@ -39,7 +39,7 @@ def loop():
 			F1.write('{:s}{:s}{:s}{:s}{:s}\n'.format(TimeStampStr,BMPTempStr,BMPPressureStr,DHTTempStr,DHTHumidityStr))
 		else:
 			print ("'Failed to get reading. Try again!'")
-		time.sleep(1)			
+		time.sleep(5)			
 
 def destroy():
 	GPIO.cleanup()

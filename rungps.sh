@@ -36,6 +36,7 @@ do
 		gps_hdop=$(echo $this_line | cut -d, -f 9)
 		gps_elev=$(echo $this_line | cut -d, -f 10)
 		echo $this_line >> $DATAFILE
+		sleep 5s
 	fi
 
 	if [[ $this_line == \$GPRMC* ]]
@@ -54,6 +55,7 @@ do
 			if [[ "$gps_fix" != "V" ]]
 			then
 				echo $ts ${gps_pos[@]} >> $DATAFILE
+				sleep 5s
 			fi
 		fi
 	fi

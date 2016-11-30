@@ -1,0 +1,90 @@
+<HTML>
+<HEAD>
+<TITLE>0 hour balloon trajectory forecast valid 06Z 30 November 2016</TITLE>
+</HEAD>
+<BODY>
+<H1>0 hour balloon trajectory forecast valid 06Z 30 November 2016</H1>
+<HR><h3>Initial Position</h3>
+34.13 degrees north, 117.77 degrees west, 435 meters.
+<p>
+<h3>60,000 feet - Ascent</h3>
+34.13 degrees north, 117.77 degrees west, 435 meters.
+<BR>0.0 nautical miles, 0 degrees magnetic from the initial position.
+<BR>The magnetic declination is 13 degrees.
+<p>
+<h3>Burst Point</h3>
+33.93 degrees north, 117.47 degrees west, 15000 meters.
+<BR>19.1 nautical miles, 113 degrees magnetic from the initial position.
+<BR>The magnetic declination is 13 degrees.
+<p>
+<h3>Impact</h3>
+33.71 degrees north, 117.13 degrees west, 435 meters.
+<BR>40.4 nautical miles, 114 degrees magnetic from the initial position.
+<BR>The magnetic declination is 13 degrees.
+<p>
+<hr><B><pre>
+    Time     Lat      Lon Height   DME VOR     U     V     W    P   T  RH
+                               m    NM mag   m/s   m/s   m/s  hPa   C   %</pre></b><pre>
+00:00:00  34.126 -117.772    436   0.0   0  -2.5  -1.0   5.0  973   7  16
+00:00:30  34.126 -117.773    590   0.1 242  -3.8  -0.6   5.0  950  13  26
+00:01:14  34.126 -117.774    813   0.1 243  -3.9  -1.2   5.0  925  11  27
+00:01:59  34.125 -117.776   1040   0.2 239  -3.9  -1.9   5.0  900   9  28
+00:03:33  34.123 -117.781   1510   0.5 234  -4.6  -2.5   5.0  850   6  29
+00:05:11  34.121 -117.785   2002   0.8 231  -4.0  -2.5   5.0  800   3  25
+00:06:54  34.118 -117.788   2523   1.0 225  -1.2  -3.5   5.0  750   2  18
+00:08:45  34.113 -117.787   3078   1.1 212   2.5  -6.1   5.0  700   1  16
+00:10:42  34.106 -117.783   3673   1.4 191   4.2  -8.9   5.1  650  -0  20
+00:12:47  34.095 -117.777   4310   1.9 174   5.2 -10.8   5.1  600  -3  28
+00:15:01  34.081 -117.766   4992   2.7 161   8.9 -12.1   5.1  550  -7  35
+00:17:23  34.065 -117.749   5727   3.8 149  13.2 -12.3   5.2  500 -12  38
+00:19:56  34.049 -117.726   6524   5.2 140  15.0 -11.7   5.2  450 -18  33
+00:22:41  34.033 -117.698   7394   6.7 133  16.3 -10.1   5.3  400 -24  27
+00:25:40  34.020 -117.665   8357   8.3 127  18.0  -6.0   5.4  350 -30  37
+00:28:57  34.012 -117.624   9434  10.1 119  20.5  -2.9   5.5  300 -39  57
+00:32:35  34.006 -117.575  10658  12.2 113  20.5  -3.0   5.7  250 -48  51
+00:36:46  33.990 -117.525  12110  14.8 110  16.4 -11.5   5.9  200 -54  27
+00:41:49  33.955 -117.481  13920  17.7 112  10.4 -13.8   6.1  150 -61  17
+00:44:43  33.935 -117.466  15000  19.1 113   5.1 -12.1   6.2  100 -70  10
+00:46:38  33.921 -117.457  13920  19.9 114  10.4 -13.8  -6.6  150 -61  17
+00:51:30  33.888 -117.415  12110  22.8 115  16.4 -11.5  -5.8  200 -54  27
+00:55:52  33.871 -117.362  10658  25.5 113  20.5  -3.0  -5.3  250 -48  51
+00:59:53  33.865 -117.309   9434  27.9 110  20.5  -2.9  -4.9  300 -39  57
+01:03:39  33.856 -117.262   8357  30.2 109  18.0  -6.0  -4.6  350 -30  37
+01:07:13  33.840 -117.222   7394  32.3 108  16.3 -10.1  -4.4  400 -24  27
+01:10:37  33.820 -117.187   6524  34.4 108  15.0 -11.7  -4.2  450 -18  33
+01:13:52  33.799 -117.158   5727  36.3 109  13.2 -12.3  -4.0  500 -12  38
+01:16:59  33.779 -117.135   4992  38.0 110   8.9 -12.1  -3.9  550  -7  35
+01:19:59  33.760 -117.122   4310  39.1 110   5.2 -10.8  -3.7  600  -3  28
+01:22:53  33.745 -117.113   3673  40.0 111   4.2  -8.9  -3.6  650  -0  20
+01:25:42  33.733 -117.107   3078  40.7 112   2.5  -6.1  -3.5  700   1  16
+01:28:24  33.726 -117.105   2523  41.0 112  -1.2  -3.5  -3.4  750   2  18
+01:31:02  33.722 -117.110   2002  40.9 113  -4.0  -2.5  -3.3  800   3  25
+01:33:35  33.719 -117.117   1510  40.8 113  -4.6  -2.5  -3.2  850   6  29
+01:36:04  33.716 -117.124   1040  40.6 114  -3.9  -1.9  -3.1  900   9  28
+01:37:18  33.714 -117.127    813  40.5 114  -3.9  -1.2  -3.1  925  11  27
+01:38:31  33.714 -117.130    590  40.4 114  -3.8  -0.6  -3.0  950  13  26
+01:39:22  33.714 -117.132    436  40.4 114  -2.5  -1.0  -3.0  973   7  16
+
+</PRE>
+
+    <HR size=5>
+    <h3 align=left>
+    <a href="http://www.uwyo.edu/atsc/" target="_top">
+    <img src="http:/icons/atsc.gif" width="32" height="25" border="0">
+    <font size="3"> <i>Department of Atmospheric Science</i></font></a>
+    <font size="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>
+
+    <a href="http://wwweng.uwyo.edu/index.html" target="_top">
+    <img src="http:/icons/EngButton.jpeg" width="32" height="25" border="0">
+    <font size="3"> <i>College of Engineering</i></font></a>
+    <font size="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>
+
+    <a href="http://www.uwyo.edu/" target="_top">
+    <img src="http:/icons/uwlogo.gif" width="27" height="27" border="0">
+    <font size="3"> <i>University of Wyoming </i></font></a>
+    </h3>
+
+    <P>Questions about the weather data provided by this site can be addressed to
+    <A HREF="mailto:ldoolman@uwyo.edu"> Larry Oolman (ldoolman@uwyo.edu)</A>
+    <HR size=5>
+  </BODY></HTML>

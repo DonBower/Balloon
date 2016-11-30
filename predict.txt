@@ -1,17 +1,42 @@
-Burst: 5000 Flight Time: Lat: Lon:
-Burst: 5500 Flight Time: Lat: Lon:
-Burst: 6000 Flight Time: Lat: Lon:
-Burst: 6500 Flight Time: Lat: Lon:
-Burst: 7000 Flight Time: Lat: Lon:
-Burst: 7500 Flight Time: Lat: Lon:
-Burst: 8000 Flight Time: Lat: Lon:
-Burst: 8500 Flight Time: Lat: Lon:
-Burst: 9000 Flight Time: Lat: Lon:
-Burst: 9500 Flight Time: Lat: Lon:
-Burst: 10000 Flight Time: Lat: Lon:
-Burst: 10500 Flight Time: Lat: Lon:
-Burst: 11000 Flight Time: Lat: Lon:
-Burst: 11500 Flight Time: Lat: Lon:
-Burst: 12000 Flight Time: Lat: Lon:
-Burst: 12500 Flight Time: Lat: Lon:
-Burst: 13000 Flight Time: Lat: Lon:
+Burst: 5000 Flight Time: 00:32:09 Lat: 34.545 Lon: -117.603
+Burst: 5500 Flight Time: 00:35:33 Lat: 34.522 Lon: -117.582
+Burst: 6000 Flight Time: 00:39:23 Lat: 34.496 Lon: -117.552
+Burst: 6500 Flight Time: 00:42:41 Lat: 34.473 Lon: -117.522
+Burst: 7000 Flight Time: 00:46:29 Lat: 34.449 Lon: -117.483
+Burst: 7500 Flight Time: 00:50:12 Lat: 34.427 Lon: -117.442
+Burst: 8000 Flight Time: 00:53:24 Lat: 34.412 Lon: -117.404
+Burst: 8500 Flight Time: 00:56:58 Lat: 34.397 Lon: -117.360
+Burst: 9000 Flight Time: 01:00:03 Lat: 34.388 Lon: -117.317
+Burst: 9500 Flight Time: 01:03:31 Lat: 34.378 Lon: -117.269
+Burst: 10000 Flight Time: 01:06:28 Lat: 34.372 Lon: -117.225
+Burst: 10500 Flight Time: 01:09:18 Lat: 34.366 Lon: -117.183
+Burst: 11000 Flight Time: 01:12:41 Lat: 34.354 Lon: -117.136
+Burst: 11500 Flight Time: 01:15:22 Lat: 34.342 Lon: -117.101
+Burst: 12000 Flight Time: 01:17:57 Lat: 34.330 Lon: -117.068
+Burst: 12500 Flight Time: 01:21:19 Lat: 34.309 Lon: -117.032
+Burst: 13000 Flight Time: 01:23:47 Lat: 34.290 Lon: -117.010
+Burst: 13500 Flight Time: 01:26:08 Lat: 34.272 Lon: -116.988
+Burst: 14000 Flight Time: 01:29:36 Lat: 34.246 Lon: -116.958
+Burst: 14500 Flight Time: 01:31:52 Lat: 34.228 Lon: -116.946
+Burst: 15000 Flight Time: 01:34:03 Lat: 34.211 Lon: -116.935
+Burst: 5000 Flight Time: 00:37:28 Lat: 34.015 Lon: -117.762
+Burst: 5500 Flight Time: 00:40:52 Lat: 33.993 Lon: -117.738
+Burst: 6000 Flight Time: 00:44:41 Lat: 33.968 Lon: -117.707
+Burst: 6500 Flight Time: 00:47:59 Lat: 33.947 Lon: -117.677
+Burst: 7000 Flight Time: 00:51:48 Lat: 33.924 Lon: -117.639
+Burst: 7500 Flight Time: 00:55:31 Lat: 33.903 Lon: -117.600
+Burst: 8000 Flight Time: 00:58:42 Lat: 33.889 Lon: -117.564
+Burst: 8500 Flight Time: 01:02:17 Lat: 33.875 Lon: -117.523
+Burst: 9000 Flight Time: 01:05:21 Lat: 33.868 Lon: -117.485
+Burst: 9500 Flight Time: 01:08:50 Lat: 33.860 Lon: -117.441
+Burst: 10000 Flight Time: 01:11:46 Lat: 33.855 Lon: -117.402
+Burst: 10500 Flight Time: 01:14:37 Lat: 33.851 Lon: -117.364
+Burst: 11000 Flight Time: 01:17:59 Lat: 33.841 Lon: -117.321
+Burst: 11500 Flight Time: 01:20:41 Lat: 33.831 Lon: -117.289
+Burst: 12000 Flight Time: 01:23:16 Lat: 33.820 Lon: -117.258
+Burst: 12500 Flight Time: 01:26:38 Lat: 33.801 Lon: -117.224
+Burst: 13000 Flight Time: 01:29:06 Lat: 33.785 Lon: -117.203
+Burst: 13500 Flight Time: 01:31:27 Lat: 33.768 Lon: -117.183
+Burst: 14000 Flight Time: 01:34:56 Lat: 33.745 Lon: -117.154
+Burst: 14500 Flight Time: 01:37:12 Lat: 33.729 Lon: -117.143
+Burst: 15000 Flight Time: 01:39:22 Lat: 33.714 Lon: -117.132
