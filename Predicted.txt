@@ -1,30 +1,5 @@
-<HTML>
-<HEAD>
-<TITLE>0 hour balloon trajectory forecast valid 06Z 30 November 2016</TITLE>
-</HEAD>
-<BODY>
-<H1>0 hour balloon trajectory forecast valid 06Z 30 November 2016</H1>
-<HR><h3>Initial Position</h3>
-34.13 degrees north, 117.77 degrees west, 435 meters.
-<p>
-<h3>60,000 feet - Ascent</h3>
-34.13 degrees north, 117.77 degrees west, 435 meters.
-<BR>0.0 nautical miles, 0 degrees magnetic from the initial position.
-<BR>The magnetic declination is 13 degrees.
-<p>
-<h3>Burst Point</h3>
-33.93 degrees north, 117.47 degrees west, 15000 meters.
-<BR>19.1 nautical miles, 113 degrees magnetic from the initial position.
-<BR>The magnetic declination is 13 degrees.
-<p>
-<h3>Impact</h3>
-33.75 degrees north, 117.18 degrees west, 435 meters.
-<BR>37.1 nautical miles, 114 degrees magnetic from the initial position.
-<BR>The magnetic declination is 13 degrees.
-<p>
-<hr><B><pre>
     Time     Lat      Lon Height   DME VOR     U     V     W    P   T  RH
-                               m    NM mag   m/s   m/s   m/s  hPa   C   %</pre></b><pre>
+                               m    NM mag   m/s   m/s   m/s  hPa   C   %
 00:00:00  34.126 -117.772    436   0.0   0  -2.5  -1.0   5.0  973   7  16
 00:00:30  34.126 -117.773    590   0.1 242  -3.8  -0.6   5.0  950  13  26
 00:01:14  34.126 -117.774    813   0.1 243  -3.9  -1.2   5.0  925  11  27
@@ -63,28 +38,4 @@
 01:28:03  33.749 -117.178   1040  37.3 114  -3.9  -1.9  -3.7  900   9  28
 01:29:05  33.748 -117.180    813  37.2 114  -3.9  -1.2  -3.7  925  11  27
 01:30:06  33.748 -117.183    590  37.1 114  -3.8  -0.6  -3.6  950  13  26
-01:30:49  33.748 -117.184    436  37.1 114  -2.5  -1.0  -3.5  973   7  16
-
-</PRE>
-
-    <HR size=5>
-    <h3 align=left>
-    <a href="http://www.uwyo.edu/atsc/" target="_top">
-    <img src="http:/icons/atsc.gif" width="32" height="25" border="0">
-    <font size="3"> <i>Department of Atmospheric Science</i></font></a>
-    <font size="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>
-
-    <a href="http://wwweng.uwyo.edu/index.html" target="_top">
-    <img src="http:/icons/EngButton.jpeg" width="32" height="25" border="0">
-    <font size="3"> <i>College of Engineering</i></font></a>
-    <font size="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>
-
-    <a href="http://www.uwyo.edu/" target="_top">
-    <img src="http:/icons/uwlogo.gif" width="27" height="27" border="0">
-    <font size="3"> <i>University of Wyoming </i></font></a>
-    </h3>
-
-    <P>Questions about the weather data provided by this site can be addressed to
-    <A HREF="mailto:ldoolman@uwyo.edu"> Larry Oolman (ldoolman@uwyo.edu)</A>
-    <HR size=5>
-  </BODY></HTML>
+01:30:49  33.748 -117.184    436  37.1 114  -2.5  -1.0  -3.5  973   7  1

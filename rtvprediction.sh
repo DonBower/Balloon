@@ -17,7 +17,7 @@ LAVERNEgps=34.126394,-117.77154,"La_Verne"
 rm predict.txt
 rm hamstermap.csv
 
-for LAUNCHfrom in $ELMIRAGEgps $LAVERNEgps
+for LAUNCHfrom in $LAVERNEgps
 do
     LAUNCHLat=$(echo $LAUNCHfrom | cut -d, -f 1)
     LAUNCHLon=$(echo $LAUNCHfrom | cut -d, -f 2)
@@ -36,7 +36,7 @@ do
         --data "LON=$LAUNCHLon" \
         --data "TOP=$BURST" \
         --data "CALCDROP=on" \
-        --data "MASS=1.2" \
+        --data "MASS=1.7" \
         --data "DIAM=2" \
         --data "Cd=0.7" \
         --data "OUTPUT=list" > landing.txt
