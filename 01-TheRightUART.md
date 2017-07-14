@@ -64,5 +64,6 @@ pi@raspberrypi:~ $ ls -l /dev/ser*
 lrwxrwxrwx 1 root root 7 Aug 26 03:24 /dev/serial0 -> ttyAMA0
 lrwxrwxrwx 1 root root 5 Aug 26 03:24 /dev/serial1 -> ttyS0
 ```
+
 <br>
 <br>
