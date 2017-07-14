@@ -15,7 +15,7 @@ https://www.adafruit.com/products/3055 <br>
 <br>
 With the Jessie Version of Raspian on my Pi3, the default serial port configuration is:<br>
 - `/dev/serial0 -> ttyS0`
-  - a.k.a. mini-UART 
+  - a.k.a. mini-UART
   - Is configured for GPIO
   - Is disabled
   - uses the service getty to provide console access
@@ -37,7 +37,7 @@ lrwxrwxrwx 1 root root 5 Aug 26 02:48 /dev/serial0 -> ttyS0
 lrwxrwxrwx 1 root root 7 Aug 26 02:48 /dev/serial1 -> ttyAMA0
 ```
 <br>
-Now it's time to stop the console service, which is unnecessary for the balloon project:<br>
+Now it's time to stop the console service, which is unnecessary for the balloon project:
 ```
 sudo systemctl stop serial-getty@ttyS0.service
 sudo systemctl disable serial-getty@ttyS0.service
@@ -55,9 +55,9 @@ Finally we can disable that pesky bluetooth service by adding the line `dtoverla
 <br>
 Viola!
 ```
-pi@raspberrypi:~ $ ls -l /dev/ser* 
-lrwxrwxrwx 1 root root 7 Aug 26 03:24 /dev/serial0 -> ttyAMA0 
-lrwxrwxrwx 1 root root 5 Aug 26 03:24 /dev/serial1 -> ttyS0 
+pi@raspberrypi:~ $ ls -l /dev/ser*
+lrwxrwxrwx 1 root root 7 Aug 26 03:24 /dev/serial0 -> ttyAMA0
+lrwxrwxrwx 1 root root 5 Aug 26 03:24 /dev/serial1 -> ttyS0
 ```
 <br>
 <br>
