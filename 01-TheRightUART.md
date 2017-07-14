@@ -37,19 +37,23 @@ lrwxrwxrwx 1 root root 5 Aug 26 02:48 /dev/serial0 -> ttyS0
 lrwxrwxrwx 1 root root 7 Aug 26 02:48 /dev/serial1 -> ttyAMA0
 ```
 <br>
-Now it's time to stop the console service, which is unnecessary for the balloon project:
+Now it's time to stop the console service, which is unnecessary for the balloon project:<br>
+
 ```
 sudo systemctl stop serial-getty@ttyS0.service
 sudo systemctl disable serial-getty@ttyS0.service
 ```
 <br>
+
 Now, let's not reference the console service in future boots.<br>
 Remove the `console=serial0,115200` entry from the <b>/boot/cmdline.txt</b> file, and reboot.<br>
 <br>
 Here is my new <b>/boot/cmdline.txt</b> file:
+
 ```
 dwc_otg.lpm_enable=0 console=tty1 root=/dev/mmcblk0p7 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
 ```
+
 <br>
 Finally we can disable that pesky bluetooth service by adding the line `dtoverlay=pi3-disable-bt` to the bottom of <b>/boot/config.txt</b> and reboot. <br>
 <br>
