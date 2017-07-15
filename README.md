@@ -16,7 +16,6 @@ First order of business, was to connect to my WiFi, which had to be done via the
 Next we update/upgrade the OS to the latest version.  <br />
 ```
 sudo apt-get update
-sudo apt-get upgrade
 sudo apt-get dist-upgrade
 sudo rpi-update
 sudo shutdown -r now
